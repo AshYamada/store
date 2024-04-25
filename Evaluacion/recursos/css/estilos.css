@@ -14,11 +14,11 @@ body {
     justify-content: space-between;
 }
 
-/* Header */
-
-header {
-    outline: 1px solid #000;
+a {
+    text-decoration: none;
 }
+
+/* Header */
 
 .contenedor-header {
     margin: 0 auto;
@@ -61,10 +61,41 @@ header {
     outline: none;
 }
 
-
 /* Main */
 
+.contenedor-main {
+    width: 940px;
+    margin: 0 auto;
+}
 
+.background {
+    padding: 20px 15px;
+    background: url('../imagenes/background-image.png') repeat;
+    height: 255px;
+    outline: 1px solid #000;
+}
+
+p {
+    font-family: Roboto Slab, DejaVu Serif, Georgia, Times New Roman, sans-serif !important;
+}
+
+.section-p {
+    margin-top: 0;
+    width: 558px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.section-p a {
+    color: #0388a6;
+
+}
+
+.main-img {
+    width: 389px;
+    height: 251px;
+    margin-left: 30px;
+}
 
 
 /* Footer */
