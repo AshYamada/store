@@ -49,63 +49,116 @@
 
         <div class="contenedor-main flex color">
             <section>
-                <div class="nav">
-                    <ul class="flex wrap">
-                        <li class="nav-config nav-ul-li">
-                            <div class="contenedor-a">
-                                <a class="flex" href="">
-                                    <img class='imagen' src="recursos/imagenes/nav-config.png" alt="">
-                                    <div>
-                                        <h3 class="red">About</h3>
-                                        <p>The advantages of Git compared to other source control systems.</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
+                <div class="contenedor-nav">
+                    <div class="nav">
+                        <ul class="flex wrap">
+                            <li class="nav-config nav-ul-li">
+                                <div class="contenedor-a">
+                                    <a class="flex" href="">
+                                        <img class='imagen' src="recursos/imagenes/nav-config.png" alt="">
+                                        <div>
+                                            <h3 class="red">About</h3>
+                                            <p>The advantages of Git compared to other source control systems.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+    
+                            <li class="nav-documentation nav-ul-li">
+                                <div class="contenedor-a">
+                                    <a class="flex" href="">
+                                        <img class='imagen' src="recursos/imagenes/nav-libro.png" alt="">
+                                        <div>
+                                            <h3 class="red">Documentation</h3>
+                                            <p>Command reference pages, Pro Git book content, videos and other material.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+    
+                            <li class="nav-descarga nav-ul-li">
+                                <div class="contenedor-a">
+                                    <a class="flex" href="">
+                                        <img class='imagen' src="recursos/imagenes/nav-descarga.png" alt="">
+                                        <div>
+                                            <h3 class="red">Downloads</h3>
+                                            <p>GUI clients and binary releases for all major platforms.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+    
+                            <li class="nav-comunity nav-ul-li">
+                                <div class="contenedor-a">
+                                    <a class="flex" href="">
+                                        <img class='imagen' src="recursos/imagenes/nav-chat.png" alt="">
+                                        <div>
+                                            <h3 class="red">Community</h3>
+                                            <p>Get involved! Bug reporting, mailing list, chat, development and more.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="caja flex">
+                        <img class="libro" src="recursos/imagenes/ProGit-Libro.png" alt="Libro Pro Git">
+                        <p class="texto">
+                            <a class="bold" href="https://git-scm.com/book">Pro Git</a> by Scott Chacon 
+                            and Ben Straub is available to <a href="https://git-scm.com/book">read online for free</a>. 
+                            Dead tree versions are available on 
+                            <a href="https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20">Amazon.com</a>.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-                        <li class="nav-documentation nav-ul-li">
-                            <div class="contenedor-a">
-                                <a class="flex" href="">
-                                    <img class='imagen' src="recursos/imagenes/nav-libro.png" alt="">
-                                    <div>
-                                        <h3 class="red">Documentation</h3>
-                                        <p>Command reference pages, Pro Git book content, videos and other material.</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
+            <section>
+                <div class="contenedor-absoluto">
+                    <img class="monitor" src="recursos/imagenes/monitor-windows.png" alt="">
+                    <div class="texto-monitor">
+                        <h4> Latest source Release </h4>
+                        <p class="version">2.44.0</p>
+                        <p class="lanzamiento">
+                            <a href="https://raw.github.com/git/git/master/Documentation/RelNotes/2.44.0.txt">Release Notes</a>
+                            (2024-02-23)
+                        </p>
+                        <a href="https://git-scm.com/download/win">
+                            <p class="boton-descarga flex centrar">Download for Windows</p>
+                        </a>
+                        
+                    </div>
+                </div>
 
-                        <li class="nav-descarga nav-ul-li">
-                            <div class="contenedor-a">
-                                <a class="flex" href="">
-                                    <img class='imagen' src="recursos/imagenes/nav-descarga.png" alt="">
-                                    <div>
-                                        <h3 class="red">Downloads</h3>
-                                        <p>GUI clients and binary releases for all major platforms.</p>
-                                    </div>
-                                </a>
-                            </div>
+                <div class="contenedor-links">
+                    <ul class="ul-links flex wrap">
+                        <li>
+                            <a class="links flex centrar" href="https://git-scm.com/download/gui/windows">
+                                <img class="img" src="recursos/imagenes/gui.png" alt="">
+                                <p>Windows GUIs</p>
+                            </a>
                         </li>
-
-                        <li class="nav-comunity nav-ul-li">
-                            <div class="contenedor-a">
-                                <a class="flex" href="">
-                                    <img class='imagen' src="recursos/imagenes/nav-chat.png" alt="">
-                                    <div>
-                                        <h3 class="red">Community</h3>
-                                        <p>Get involved! Bug reporting, mailing list, chat, development and more.</p>
-                                    </div>
-                                </a>
-                            </div>
+                        <li>
+                            <a class="links flex centrar" href="https://www.kernel.org/pub/software/scm/git/">
+                                <img class="img2" src="recursos/imagenes/box.png" alt="">
+                                <p>Tarballs</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="links flex centrar" href="https://git-scm.com/download/mac">
+                                <img class="img3" src="recursos/imagenes/apple.png" alt="">
+                                <p>Mac Build</p>
+                            </a>
+                        </li>
+                        <li>
+                            
+                            <a class="links flex centrar" href="https://github.com/git/git">
+                                <img class="img4" src="recursos/imagenes/source-code.png" alt="">
+                                <p>Source Code</p>
+                            </a>
                         </li>
                     </ul>
                 </div>
-                <div>
-
-                </div>
-            </section>
-            <section>
-
             </section>
         </div>
     </main>

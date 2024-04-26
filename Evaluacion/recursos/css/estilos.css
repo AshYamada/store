@@ -77,6 +77,7 @@ a {
     background: url('../imagenes/background-image.png') repeat;
     height: 255px;
     outline: 1px solid #000;
+    margin-bottom: 28px;
 }
 
 p {
@@ -104,9 +105,14 @@ p {
 
 /* nav */
 
-.nav {
+.contenedor-nav {
     width: 618px;
+    border-right: solid 1px #d8d7cf;
+}
+
+.nav {
     height: 256px;
+    margin-bottom: 15px;
 }
 
 .nav ul {
@@ -169,9 +175,146 @@ ul {
     margin-left: 11px;
 }
 
+/* debajo del nav */
+
+.libro {
+    width: 56px;
+    height: 74px;
+    margin-right: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.texto {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.texto a {
+    color: #0388a6;
+}
+
+.caja {
+    width: 590px;
+    padding-top: 20px;
+    border-top: 1px solid #d8d7cf;
+}
+
 /* imagen al lado del nav */
 
+.contenedor-absoluto {
+    width: 313px;
+    height: 271px;
+    position: relative;
+    left: 20px;
+}
 
+.monitor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+}
+
+.texto-monitor {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+.texto-monitor h4 {
+    font-family: Roboto Slab, DejaVu Serif, Georgia, Times New Roman, sans-serif !important;
+    margin: 21px 0 0 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.version {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+.lanzamiento a {
+    text-decoration: underline;
+    color: #eeeeee;
+}
+
+.lanzamiento {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0);
+}
+
+.boton-descarga {
+    color: #ffffff;
+    justify-content: center;
+    margin: 12px 0 0 0;
+    border-radius: 2px;
+    width: 225px;
+    height: 33px;
+    border: solid 1px #134143;
+    background-image: linear-gradient(#1c868c, #186368);
+}
+
+.contenedor-links {
+    width: 330px;
+}
+
+.contenedor-links ul {
+    list-style: none;
+}
+
+.ul-links li {
+    width: 145px;
+    height: 44px;
+}
+
+.ul-links {
+    padding: 20px;
+}
+
+.links {
+    color: #0388a6;
+    font-size: 14px;
+}
+
+.links p {
+    font-weight: bold;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+.img2 {
+    width: 20px;
+    height: 18px;
+}
+
+.img3 {
+    width: 20px;
+    height: 18px;
+}
+
+.img4 {
+    width: 25px;
+    height: 20px;
+}
+
+.img, .img2, .img3, .img4 {
+    margin-right: 5px;
+}
 
 /* Footer */
 
