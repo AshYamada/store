@@ -281,6 +281,7 @@ ul {
 
 .ul-links {
     padding: 20px;
+    margin: 0;
 }
 
 .links {
@@ -316,6 +317,29 @@ ul {
     margin-right: 5px;
 }
 
+/* Contenedor logos */
+
+.contenedor-logos {
+    width: 940px;
+}
+
+.h3-logos {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto Slab, DejaVu Serif, Georgia, Times New Roman, sans-serif !important;
+}
+
+.img-logo {
+    width: 108px;
+    height: 65px;
+    margin: 0 4px 25px 5px;
+}
+
+.caja-logos {
+    padding-top: 20px;
+    border-top: solid 1px #d8d7cf;
+}
 /* Footer */
 
 
