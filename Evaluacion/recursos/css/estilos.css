@@ -76,7 +76,6 @@ a {
     padding: 20px 15px;
     background: url('../imagenes/background-image.png') repeat;
     height: 255px;
-    outline: 1px solid #000;
     margin-bottom: 28px;
 }
 
@@ -340,6 +339,37 @@ ul {
     padding-top: 20px;
     border-top: solid 1px #d8d7cf;
 }
+
 /* Footer */
 
+.footer-img {
+    position: relative;
+    top: 4px;
+    height: 23px;
+    width: 37px;
+    margin-right: 5px;
+}
 
+.contenedor-footer {
+    margin: 0 auto;
+    width: 940px;
+    margin-top: 5px;
+    padding: 15px 0 40px 0;
+    border-top: solid 1px #d8d7cf;
+}
+
+.footer-a {
+    color: #403f3c;
+    font-size: 12px;
+    font-family: Roboto Slab, DejaVu Serif, Georgia, Times New Roman, sans-serif !important;
+}
+
+.footer-p {
+    margin: 0;
+    color: #9a9994;
+    font-size: 12px;
+}
+
+.borde {
+    border-top: 1px solid #d8d7cf;
+}
