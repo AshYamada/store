@@ -6,6 +6,10 @@ body {
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .centrar {
     align-items: center;
 }
@@ -62,7 +66,7 @@ a {
 }
 
 /* Main */
-
+/* Main con Background */
 .contenedor-main {
     width: 940px;
     margin: 0 auto;
@@ -88,7 +92,6 @@ p {
 
 .section-p a {
     color: #0388a6;
-
 }
 
 .main-img {
@@ -96,6 +99,78 @@ p {
     height: 251px;
     margin-left: 30px;
 }
+
+/* Main sin background */
+
+/* nav */
+
+.nav {
+    width: 618px;
+    height: 256px;
+}
+
+.nav ul {
+    padding-top: 24px;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0 0 11px 0;
+}
+
+.imagen {
+    width: 74px;
+    height: 74px;
+}
+
+.nav-ul-li {
+    list-style: none;
+}
+
+.nav-ul-li a {
+    color: #4e443c;
+}
+
+.red {
+    color: #f14e32;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Roboto Slab, DejaVu Serif, Georgia, Times New Roman, sans-serif !important;
+}
+
+.nav-ul-li a p {
+    font-size: 13px;
+}
+
+.contenedor-a {
+    width: 280px;
+    height: 86px;
+}
+
+.nav-config {
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.nav-documentation {
+    margin-bottom: 40px;
+}
+
+.nav-descarga {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.nav-comunity {
+    margin-bottom: 20px;
+}
+
+.contenedor-a a div p, .contenedor-a a div h3 {
+    margin-left: 11px;
+}
+
+/* imagen al lado del nav */
+
 
 
 /* Footer */
